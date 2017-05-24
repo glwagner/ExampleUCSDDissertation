@@ -1,0 +1,69 @@
+\contentsline {chapter}{Signature Page}{iii}{section*.1}
+\contentsline {chapter}{Epigraph}{iv}{section*.2}
+\contentsline {chapter}{Table of Contents}{v}{section*.3}
+\contentsline {chapter}{List of Figures}{viii}{section*.4}
+\contentsline {chapter}{List of Tables}{ix}{section*.5}
+\contentsline {chapter}{Acknowledgements}{x}{section*.6}
+\contentsline {chapter}{Vita}{xiii}{section*.7}
+\contentsline {chapter}{Abstract of the Dissertation}{xiv}{section*.9}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Waves and flow}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Mathematical overtures}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Dynamics of rotating Boussinesq fluids}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Lessons of linear dynamics}{9}{subsection.1.2.2}
+\contentsline {subsubsection}{Waves}{10}{section*.11}
+\contentsline {subsubsection}{Flow}{12}{section*.12}
+\contentsline {subsection}{\numberline {1.2.3}Interaction and non-interaction of waves and flow}{13}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}The shape of things to come}{16}{section.1.3}
+\contentsline {chapter}{\numberline {2}Available potential vorticity and wave-averaged quasi-geostrophic flow}{20}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{20}{section.2.1}
+\contentsline {section}{\numberline {2.2}Available potential vorticity }{24}{section.2.2}
+\contentsline {section}{\numberline {2.3}An expansion in wave amplitude}{27}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Linearity of the leading-order solution }{28}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The Rossby number and `two-timing'}{28}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}The non-dimensional Boussinesq and APV equations}{30}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Leading order: internal waves}{32}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}First order: balanced flow and quadratic wave terms}{34}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Second and third order: an evolution equation for $Q_1$}{37}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}Quasi-geostrophic potential vorticity}{38}{subsection.2.3.7}
+\contentsline {subsection}{\numberline {2.3.8}Boundary conditions}{40}{subsection.2.3.8}
+\contentsline {section}{\numberline {2.4}The kinematic and rather mundane origins of $q^{\mathrm {w}}$}{41}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}The wave-averaged fluid element}{41}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Rotation of mean fluid elements}{42}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Dilation of wave-averaged fluid elements}{45}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Wave-induced mean motion}{46}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}The Bretherton flow: mean motion induced by a vertically-propagating plane wave}{47}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Mean motion induced by a vertical mode-one internal wave}{52}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Discussion}{57}{section.2.6}
+\contentsline {section}{\numberline {2.A}Quadratic wave properties}{59}{section.1.2.A}
+\contentsline {subsection}{\numberline {2.A.1}The virial equation and the Stokes correction to pressure}{59}{subsection.1.2.A.1}
+\contentsline {subsection}{\numberline {2.A.2}The `gradient virial equation'}{60}{subsection.1.2.A.2}
+\contentsline {subsection}{\numberline {2.A.3}The Stokes velocity correction and wave-averaged velocity}{61}{subsection.1.2.A.3}
+\contentsline {section}{\numberline {2.B}The wave contribution to APV, $q^{\mathrm {w}}$ }{62}{section.1.2.B}
+\contentsline {section}{Acknowledgements}{65}{section*.18}
+\contentsline {chapter}{\numberline {3}A three-component model for the coupled evolution of near-inertial waves, quasi-geostrophic flow, and the near-inertial second harmonic}{66}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{66}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The $2 f_0$ harmonic and motivation for a three-component model}{68}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Summary of the three-component model}{71}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Near-inertial non-dimensionalization}{75}{section.3.2}
+\contentsline {section}{\numberline {3.3}The NIW equation}{75}{section.3.3}
+\contentsline {section}{\numberline {3.4}The NIW-averaged potential vorticity}{75}{section.3.4}
+\contentsline {section}{\numberline {3.5}Remodeling}{75}{section.3.5}
+\contentsline {section}{\numberline {3.6}Conservation laws}{75}{section.3.6}
+\contentsline {section}{\numberline {3.7}Comparison of three-component model and Boussinesq equations}{75}{section.3.7}
+\contentsline {section}{\numberline {3.8}Energy transfer and production of small vertical scales}{75}{section.3.8}
+\contentsline {section}{\numberline {3.9}Discussion}{75}{section.3.9}
+\contentsline {section}{\numberline {3.A}A consistent two-dimensionalization of the three-component model}{75}{section.2.3.A}
+\contentsline {subsection}{\numberline {3.A.1}Scaling the strength of wave-induced mean flows}{77}{subsection.2.3.A.1}
+\contentsline {subsection}{\numberline {3.A.2}Near-inertial interruption of free turbulent decay}{79}{subsection.2.3.A.2}
+\contentsline {subsection}{\numberline {3.A.3}The pseudospectral numerical method}{83}{subsection.2.3.A.3}
+\contentsline {section}{Acknowledgements}{86}{section*.22}
+\contentsline {chapter}{\numberline {4}Slow evolution of internal tides in quasi-geostrophic flow}{87}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{87}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Summary of the internal tide equation}{89}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Hydrostatic internal waves in barotropic flow}{92}{section.4.2}
+ \renewcommand {\cftchappresnum }{Appendix } \setlength {\cftchapnumwidth }{\widthof {\textbf {Appendix\nobreakspace {}AA\nobreakspace {}}}} 
+\contentsline {chapter}{\numberline {A}The Boussinesq equations and `wave operator form'}{93}{appendix.A}
+\contentsline {section}{\numberline {A.1}In the non-hydrostatic Boussinesq equations}{94}{section.A.1}
+\contentsline {section}{\numberline {A.2}In the hydrostatic Boussinesq equations}{96}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}An alternative hydrostatic wave operator form}{97}{subsection.A.2.1}
