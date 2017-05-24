@@ -1,0 +1,29 @@
+% Tweaks to the Table of Contents which:
+%   - create an acceptable amount of space for chapter names, figure names, table 
+%     names, and
+%   - Forces the table of contents to label an 'appendix' as 'Appendix'.
+
+\usepackage{tocloft, calc}
+
+\renewcommand\cftchapleader{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftchappresnum}{\chaptername\space}
+\setlength{\cftchapnumwidth}{\widthof{\textbf{Chapter~11~}}}
+
+% Figure names and width
+\renewcommand{\cftfigpresnum}{\figurename\space}
+\setlength{\cftfignumwidth}{\widthof{\textbf{Figure~1.11~}}}
+
+% Table names and width
+\renewcommand{\cfttabpresnum}{\tablename\space}
+\setlength{\cfttabnumwidth}{\widthof{\textbf{Table~1.1~}}}
+
+% Label appendices with 'appendix' rather than chapter
+\makeatletter
+\g@addto@macro\appendix{
+  \addtocontents{toc}{
+    % Changes 'figure name' to 'appendix name' in the label before chapter number
+    \protect\renewcommand{\protect\cftchappresnum}{\appendixname\space}
+    % Changes the width of the name+number chapter label
+    \protect\setlength{\protect\cftchapnumwidth}{\widthof{\textbf{Appendix~AA~}}}
+  }
+}

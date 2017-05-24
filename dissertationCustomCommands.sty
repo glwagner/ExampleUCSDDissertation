@@ -1,0 +1,236 @@
+% This style sheet defines many commands that speed up drafting papers 
+% and dissertations with lots of math and symbology.
+
+% To make really wide hats that cover everything:
+\usepackage{scalerel, stackengine}
+\setstackEOL{\#}
+\stackMath
+\def\hatgap{2pt}
+\def\subdown{-2pt}
+\newcommand\reallywidehat[2][]{
+\renewcommand\stackalignment{l}
+\stackon[\hatgap]{#2}{
+\stretchto{
+    \scalerel*[\widthof{$#2$}]{\kern-.6pt\bigwedge\kern-.6pt}
+    {\rule[-\textheight/2]{1ex}{\textheight}}}{0.5ex}
+_{\smash{\belowbaseline[\subdown]{\scriptstyle#1}}}
+}}
+
+% For custom subsections
+\newcommand*\subsubcustom[1]{$\,$ \\ \noindent \textbf{#1}}
+
+% For underbraces
+\newcommand*\mystrut[1]{\vrule width0pt height0pt depth#1\relax}
+
+% Math script
+\newcommand{\scE}{\mathscr{E}}
+\newcommand{\scA}{\mathscr{A}}
+\newcommand{\cA}{\mathscr{A}}
+\newcommand{\cE}{\mathscr{E}}
+
+% Use \bar to overline solo symbols
+\newcommand{\av}[1]{\bar{#1}}
+\newcommand{\avbg}[1]{\overline{#1}}
+\newcommand{\avbgg}[1]{\overline{#1}}
+
+% Equations
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+
+% Calculus operators
+\newcommand{\p}{\partial}
+\newcommand{\bnabla}{\boldsymbol \nabla}
+\newcommand{\pnabla}{\boldsymbol \nabla_{\! \! \perp}}
+\newcommand{\hnabla}{\bnabla_{\! \! h}}
+\newcommand{\bnablad}{\bnabla_{\! \! \alpha}}
+\newcommand{\bcdot}{\boldsymbol \cdot}
+\newcommand{\hlap}{\triangle}
+\newcommand{\grad}{\bnabla}
+\newcommand{\curl}{\bnabla \!\times\!}
+\newcommand{\diver}{\bnabla \bcdot }
+\newcommand{\cross}{\times}
+\newcommand{\disp}{\mathscr{D}_{\alpha}}
+\newcommand{\J}{\mathrm{J}}
+\renewcommand{\L}{\mathrm{L}}
+\newcommand{\LL}{\tilde{\mathrm{L}}}
+\newcommand{\avL}{\bar{\mathrm{L}}}
+\newcommand{\sL}{\mathrm{L}}
+\newcommand{\D}{\mathrm{D}}
+\renewcommand{\S}{\mathrm{S}}
+\renewcommand{\P}{\mathrm{P}}
+\newcommand{\Sv}{\boldsymbol{\mathrm{S}}}
+
+% Boldsymbols
+\newcommand{\bu}{\boldsymbol u}
+\newcommand{\bx}{\boldsymbol x}
+\newcommand{\bF}{\boldsymbol F}
+\newcommand{\ba}{\boldsymbol{a}}
+\newcommand{\bk}{\boldsymbol{k}}
+\newcommand{\bh}{\boldsymbol{h}}
+\newcommand{\bm}{\boldsymbol{m}}
+\newcommand{\bkh}{\boldsymbol{\hat k}}
+\newcommand{\btau}{\boldsymbol{\hat \tau}}
+\newcommand{\btheta}{\boldsymbol{\hat \theta}}
+\newcommand{\bn}{\boldsymbol{\hat n}}
+\newcommand{\bxh}{\hspace{0.1em} \boldsymbol{\hat x}}
+\newcommand{\byh}{\hspace{0.1em}\boldsymbol{\hat y}}
+\newcommand{\bzh}{\hspace{0.1em}\boldsymbol{\hat z}}
+\newcommand{\bnh}{\hspace{0.1em}\boldsymbol{\hat n}}
+\newcommand{\buu}{\boldsymbol{ \tilde u}}
+\newcommand{\bomega}{\boldsymbol \omega}
+\newcommand{\bxi}{\ensuremath {\boldsymbol {\xi}}}
+\newcommand{\bXi}{\ensuremath {\boldsymbol {\Xi}}}
+\newcommand{\avbxi}{\overline{\ensuremath {\boldsymbol {\xi}}}}
+\newcommand{\bX}{\boldsymbol{X}}
+\newcommand{\bs}{\boldsymbol{s}}
+
+% Greek
+\newcommand{\ep}{\epsilon}
+\newcommand{\om}{\omega}
+\newcommand{\n}{\alpha} % for the internal tide section
+
+% Romans
+\newcommand{\ee}{\mathrm{e}}
+\newcommand{\ii}{\mathrm{i}}
+\newcommand{\cc}{\mathrm{cc}}
+\newcommand{\sJ}{\mathrm{J}}
+\newcommand{\US}{u_{\mathrm{S}}}
+\newcommand{\UL}{u_{\mathrm{L}}}
+\newcommand{\dd}{{\rm d}}
+\newcommand{\id}{{\, \rm d}}
+\newcommand{\DD}{{\rm D}}
+\newcommand{\wavy}{\text{wavy}}
+\newcommand{\qg}{\text{qg}}
+
+% Tilde
+\newcommand{\uu}{\tilde u}
+\newcommand{\vv}{\tilde v}
+\newcommand{\ww}{\tilde w}
+\newcommand{\pp}{\tilde p}
+\newcommand{\bb}{\tilde b}
+\renewcommand{\tt}{\tilde t}
+\newcommand{\xx}{\tilde x}
+\newcommand{\yy}{\tilde y}
+\newcommand{\zz}{\tilde z}
+\newcommand{\UU}{\tilde{ \mathcal{U}}}
+\newcommand{\OO}{\tilde{ \mathcal{O}}}
+\newcommand{\tx}{\tilde x}
+\newcommand{\ty}{\tilde y}
+\newcommand{\tz}{\tilde z}
+\newcommand{\tPi}{\tilde \Pi}
+\newcommand{\tzeta}{\tilde \zeta}
+\newcommand{\teta}{\tilde \eta}
+\newcommand{\tU}{\tilde U}
+\newcommand{\tV}{\tilde V}
+\newcommand{\tL}{\tilde L}
+\newcommand{\tH}{\tilde H}
+\newcommand{\tbomega}{\tilde \bomega}
+\newcommand{\tomega}{\tilde \omega}
+\newcommand{\tB}{\tilde B}
+\newcommand{\tq}{\tilde q}
+\newcommand{\tQ}{\tilde Q}
+\newcommand{\tbxi}{\tilde{\boldsymbol \xi}}
+\newcommand{\txi}{\tilde \xi}
+\newcommand{\tlambda}{\tilde \lambda}
+\newcommand{\talpha}{\tilde \alpha}
+
+% Bars
+\newcommand{\bt}{\bar t}
+\newcommand{\bPi}{\bar \Pi}
+\newcommand{\avbu}{\bar{\boldsymbol u}}
+\newcommand{\avu}{\bar u}
+\newcommand{\avv}{\bar v}
+\newcommand{\avw}{\bar w}
+\newcommand{\avp}{\bar p}
+\newcommand{\avb}{\bar b}
+\newcommand{\avU}{\bar U}
+\newcommand{\avH}{\bar H}
+\newcommand{\avUU}{\bar{ \mathcal{U}}}
+\newcommand{\avz}{\bar z}
+\newcommand{\avt}{\bar t}
+\newcommand{\avbomega}{\bar \bomega}
+\newcommand{\avom}{\bar \omega}
+\newcommand{\avzeta}{\bar \zeta}
+\newcommand{\avbnabla}{ \bar{ \boldsymbol \nabla}}
+\newcommand{\avDD}{\bar{\rm{D}}}
+\newcommand{\avq}{\bar q}
+\newcommand{\avQ}{\bar Q}
+
+% Non-dimensional numbers 
+\newcommand{\Ri}{Ri}
+\newcommand{\ro}{Ro}
+\newcommand{\Ro}{Ro}
+\newcommand{\tro}{\tilde{Ro}}
+\newcommand{\Bu}{Bu}
+\newcommand{\tBu}{\tilde{Bu}}
+
+% Text abbreviations
+\newcommand{\NRT}{\text{NRT}}
+\newcommand{\vke}{\text{VKE}}
+\newcommand{\tcm}{three-component }
+\newcommand{\ch}{chapter }
+\newcommand{\Mtwo}{$\mathrm{M_2}$}
+
+% Math cal
+\newcommand{\U}{\mathcal{U}}
+\newcommand{\W}{\mathcal{W}}
+\newcommand{\Z}{\mathcal{Z}}
+\newcommand{\K}{\mathcal{K}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cN}{\mathcal{N}}
+
+% Stokes corrections
+\newcommand{\buS}{\boldsymbol{u}^{\mathrm{S}}}
+\newcommand{\wS}{w^{\mathrm{S}}}
+\newcommand{\uS}{u^{\mathrm{S}}}
+\newcommand{\vS}{v^{\mathrm{S}}}
+\newcommand{\pS}{p^{\mathrm{S}}}
+\newcommand{\hS}{h^{\mathrm{S}}}
+\newcommand{\bS}{b^{\mathrm{S}}}
+\newcommand{\BS}{B^{\mathrm{S}}}
+\newcommand{\PS}{P^{\mathrm{S}}}
+\newcommand{\USS}{\U^{\mathrm{S}}}
+\newcommand{\qS}{q^{\mathrm{S}}}
+\newcommand{\omS}{\omega^{\mathrm{S}}}
+\newcommand{\omegaS}{\omega^{\mathrm{S}}}
+
+% Lagrangian-mean
+\newcommand{\buL}{\boldsymbol{u}^{\mathrm{L}}}
+\newcommand{\wL}{w^{\mathrm{L}}}
+\newcommand{\uL}{u^{\mathrm{L}}}
+\newcommand{\vL}{v^{\mathrm{L}}}
+\newcommand{\bL}{b^{\mathrm{L}}}
+\newcommand{\psiL}{\psi}
+
+% San serif
+\renewcommand{\sp}{\mathsf{p}}
+\newcommand{\h}{\mathsf{h}}
+\newcommand{\sbp}{\boldsymbol{\sp}}
+
+% Daggers, w's, etc
+\newcommand{\qdag}{q^{\mathrm{w}}}
+\newcommand{\budag}{ \boldsymbol {u}^{\mathrm{w}} }
+\newcommand{\udag}{u^{\mathrm{w}}}
+\newcommand{\vdag}{ v^{\mathrm{w}} }
+\newcommand{\wdag}{ w^{\mathrm{w}} }
+\newcommand{\qw}{q^{\mathrm{w}}}
+\newcommand{\psiq}{\psi^q}
+\newcommand{\psiw}{\psi^{\mathrm{w}}}
+
+% Misc
+\newcommand{\half}{\tfrac{1}{2}}        % Fraction
+\newcommand{\dz}{\! \! z}               % For subscript derivatives
+\newcommand{\dtz}{\! \! \tz}
+\newcommand{\bl}{\big |}                % Evaluate at
+\newcommand{\nd}{\check}                % Non-dimensional notation
+\renewcommand{\th}{\mathrm{th}}         % For indicial notation
+\newcommand{\hpsi}{\hat \psi} 
+\newcommand{\com}{\, ,}                 % Punctuation
+\newcommand{\per}{\, .}
+\newcommand{\Dt}[1]{\mathrm{D}_t #1}    % Material derivative
+\newcommand{\wavyc}{\bigstar}           % Wave-averaged kinematics
+\newcommand{\meanc}{\bigcirc}
+
+% A nice definition
+\newcommand{\defn}{\ensuremath{\stackrel{\mathrm{def}}{=}}} 
