@@ -10,24 +10,7 @@ awarded in May 2016. The [original and official dissertation][] titled
 flow' can be downloaded from ProQuest. An [informal, single-spaced and 
 differently formatted version][] can be downloaded from Gregory's website.
 
-Apart from satisfying the required style for UCSD PhD dissertations, this example
-also implements:
-
-* Code and Table-of-Contents formatting for both in-chapter 
-appendices ('subappendices') as well as full-text appendices that appear
-after the last chapter in the document. This feature is provided by the 
-`appendix` package and code included in the `dissertationTableContentTweaks.sty`
-style file.
-
-* Rotated figures through the `lscape`, `scrextend`, and `rotating` packages,
-as well as a code fragment in the `dissertationRotatedFigures.sty` style file.
-An example rotated figure is given in chapter 3C. Rotated figures are 
-useful for very large figures intended to fill an entire page.
-
-* Hyperlinks through the `\url{}` command which appear in the document
-as unformatted, black roman text.
-
-A few additional important points are:
+## Nota bene
 
 * The [Creative Commands NonCommercial-NoDerivatives][] copyright was applied 
 to the original dissertation. This copyright permits free distribution, requires
@@ -46,6 +29,27 @@ file or define custom commands at all.
 * There is some flexibility in formatting both the 'VITA' page 
 and the 'EPIGRAPH' page. The exact format used in this example is not
 required.
+
+## Features 
+
+Apart from satisfying the required style for UCSD PhD dissertations, this example
+also implements:
+
+* Code and Table-of-Contents formatting for both in-chapter 
+appendices ('subappendices') as well as full-text appendices that appear
+after the last chapter in the document. This feature is provided by the 
+`appendix` package and code included in the `dissertationTableContentTweaks.sty`
+style file.
+
+* Rotated figures through the `lscape`, `scrextend`, and `rotating` packages,
+as well as a code fragment in the `dissertationRotatedFigures.sty` style file.
+An example rotated figure is given in chapter 3C. Rotated figures are 
+useful for very large figures intended to fill an entire page.
+
+* Hyperlinks through the `\url{}` command which appear in the document
+as unformatted, black roman text.
+
+## Lastly 
 
 To all aspiring dissertation writers --- good luck, of course.
 
