@@ -4,7 +4,12 @@
 *.blg
 *.lof
 *.log
+*.lot
 *.synctex.gz
 *.toc
+*.out
+
+# Not sure exactly what this is but its annoying
+.DS_Store
 
 
