@@ -1,0 +1,10 @@
+# Ignore all of the noisy latex build files
+*.aux
+*.bbl
+*.blg
+*.lof
+*.log
+*.synctex.gz
+*.toc
+
+
