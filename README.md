@@ -51,7 +51,7 @@ as unformatted, black roman text.
 
 ## Lastly 
 
-To all aspiring dissertation writers --- good luck, of course.
+To aspiring dissertation writers --- good luck, of course.
 
 [Gregory L. Wagner]: https://glwagner.github.io
 [original and official dissertation]: http://pqdtopen.proquest.com/doc/1799665054.html?FMT=ABS
